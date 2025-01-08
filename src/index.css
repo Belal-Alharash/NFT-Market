@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-color: #2B2B2B;
+  --bg-second-color:#3B3B3B;
+  --primary-text-color: #FFFFFF;
+  --secondary-text-color: #858584;
+  --button-bg-color: #A259FF;
+  --light-gray: #CCCCCC;
+  --green-numbers-color:#00AC4F;
+  --work-sans: "Work Sans", serif;
+  --space-mono: "Space Mono", serif;
+}
