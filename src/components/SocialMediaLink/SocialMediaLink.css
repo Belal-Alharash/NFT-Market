@@ -1,0 +1,21 @@
+
+.myul-ys
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+.myicon-web-li-a-ys-none
+{
+    display: none;
+}
+@media (max-width : 834px)
+{
+    .myicon-li-a-ys{
+        width:24px ;
+        height: 24px;
+    }
+    
+}
