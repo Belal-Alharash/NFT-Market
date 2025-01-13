@@ -1,4 +1,4 @@
-.bh-button {
+.bh-button,.bh-button-one,.bh-button-two,.bh-button-three {
   display: flex;
   justify-content: center;
   align-items: center;
