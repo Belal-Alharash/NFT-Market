@@ -1,19 +1,19 @@
 import React from 'react'
 import './EmailInput.css'
-import img1 from'./../../assets/Images/icons/EnvelopeSimple.svg'
- 
+import ButtonBh from '../ButtonBh/ButtonBh'
 
-export default function EmailInput({placeholder ,hnIcon} )
-{
+
+export default function EmailInput({ hnPlaceholder, hnShowIcon, hnShowIconSmallScreen }) {
   return (
-    <div >
-     
-      <div className={hnIcon?'hn-b':'hn-f'}>
-      <input type='email' placeholder={placeholder} className={hnIcon?'hn-inp':'hn-inp1'}/>
-      <button className='hn-flex'>{hnIcon && <img src={img1}/>} Subscribe</button>
-  
+    <div className='test' >
 
-      </div>       
+      <div className={`hn-email-input ${hnShowIcon ? 'hn-email-input-block' : 'hn-email-input-flex'}`}>
+        <input type='email' placeholder={hnPlaceholder} className={`hn-input ${hnShowIcon ? 'hn-input-block' : 'hn-input-flex'} `} />
+        {hnShowIcon && <ButtonBh buttonText={"Subscribe"} buttonClass={"bh-button-one hn-none-button-smallscreen"} showIcon={true} buttonIcon={"../../../public/Images/icons/EnvelopeSimple.svg"} />}
+        {!hnShowIcon && <ButtonBh buttonText={"Subscribe"} buttonClass={"bh-button-one hn-none-button-smallscreen"} showIcon={false} />}
+        {hnShowIconSmallScreen && <ButtonBh buttonText={"Subscribe"} buttonClass={"bh-button-one hn-block-button-smallscreen"} showIcon={true} buttonIcon={"../../../public/Images/icons/EnvelopeSimple.svg"} />}
+      </div>
+
     </div>
   )
 }
