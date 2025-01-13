@@ -3,8 +3,6 @@
     align-items: center;
     padding: 0;
     margin: 0;
-    background-color: var(--bg-color); /*to delete later*/
-    width: 510px; /*to delete later*/
 }
 .mh_li_infoUL{
     color: var(--primary-text-color);
