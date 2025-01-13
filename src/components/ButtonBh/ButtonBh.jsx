@@ -1,7 +1,7 @@
 import React from 'react'
-import './Button.css'
+import './ButtonBh.css'
 
-export default function Button({ showIcon, buttonText, buttonClass, buttonIcon }) {
+export default function ButtonBh({ showIcon, buttonText, buttonClass, buttonIcon }) {
   return (
     <>
       <button className={buttonClass}>
