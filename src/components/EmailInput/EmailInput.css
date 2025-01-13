@@ -1,0 +1,119 @@
+.hn-b , .hn-f{
+    display: flex;
+    background-color:var(--primary-text-color);
+    width: 425px;
+    height: 60px;
+    border-radius: 20px; 
+    padding-left:20px;
+    gap: 12px;
+   
+}
+.hn-inp ,.hn-inp1, .hn-b button ,.hn-f button{
+    font-family: var(--work-sans);
+    line-height: 22.4px;
+    font-size: 16px;
+
+}
+
+
+.hn-inp ,.hn-inp1 {
+   
+width: 214px;
+height: 60px;
+padding: 0 20px;
+    border: none;
+   background-color:var(--primary-text-color);
+   font-weight: 400;
+   color: var(--bg-color);
+   
+
+    }
+    .hn-b button ,.hn-f button{
+      width: 211px;
+      height: 60px;
+        border-radius: 20px;
+        padding: 0 50px;
+       gap: 12px;
+     border: none;
+        border: 1px;
+        background-color:var(--button-bg-color);
+        font-weight: 600;
+       
+        color: var(--primary-text-color);
+        align-items: center;
+    }
+        .hn-inp::placeholder ,.hn-inp1::placeholder{
+            color: var(--bg-color);
+        }
+       
+        .hn-flex{
+            display: flex;
+        }
+    @media(min-width:834px)and (max-width:1279px){
+        .hn-b{
+           display: block;
+          gap: 16px;
+            width: 300px;
+            height: 108px;
+            background-color:transparent;
+            
+          
+        }
+        .hn-f{
+           
+            width: 420px;
+            
+        }
+       .hn-inp{
+       width: 300px;
+       height: 46px;
+        border-radius: 20px;
+        margin-bottom: 16px;
+        
+        }
+        .hn-inp1{
+            width: 240px;
+            border-radius: 20px;
+            
+          
+        }
+    .hn-b button{
+        width: 300px;
+        height: 46px;
+       
+    }
+    .hn-f button{
+
+        width: 179px;
+    }
+
+    }
+       
+   
+    @media(min-width:375px)and (max-width:833px){
+        .hn-b,.hn-f{
+            display: block;
+           gap: 16px;
+             width: 315px;
+             height: 108px;
+             background-color:transparent;
+             
+           
+         }
+         .hn-inp, .hn-inp1 {
+            width: 315px;
+            height: 46px;
+            border-radius: 20px;
+            margin-bottom: 16px;
+            padding: 16px 20px;
+        }
+      
+       
+        .hn-f button ,.hn-b button{
+            width: 315px;
+            height: 46px;
+           
+            
+        }
+    }
+   
