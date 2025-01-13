@@ -1,7 +1,6 @@
 .bh-button-one,
 .bh-button-two,
-.bh-button-three,
-.bh-button {
+.bh-button-three{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +31,9 @@
   border: 0;
   color: var(--bg-color);
 }
-.bh-button:hover {
+.bh-button-one:hover,
+.bh-button-two:hover,
+.bh-button-three:hover {
   transform: translate(25%);
   opacity: 0.7;
 }
