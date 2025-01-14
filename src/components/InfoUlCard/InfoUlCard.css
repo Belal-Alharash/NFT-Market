@@ -3,6 +3,7 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    background-color: var(--bg-color); /*to delete later*/
 }
 .mh_li_infoUL{
     color: var(--primary-text-color);
@@ -21,4 +22,22 @@
     font-weight: 400;
     font-size: 23.99px;
     line-height: 38.38px;
+}
+@media screen and (max-width: 834px) {
+    .mh_li_infoUL{
+        width: 90px;
+    }
+    .mh_h4_infoUL{
+        font-size: 22px;
+        line-height: 35.2px;
+    }
+    .mh_p_infoUL{
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .mh_li_infoUL{
+        width: 85px;
+    }
 }
