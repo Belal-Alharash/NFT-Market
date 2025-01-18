@@ -6,7 +6,7 @@ export default function ButtonBh({ showIcon, buttonText, buttonClass, buttonIcon
     <>
       <button className={buttonClass}>
         {showIcon && <img src={buttonIcon} className="bh-button-icon" />}
-        {buttonText}
+        <p className='button-text'>{buttonText}</p>
       </button>
     </>
   )
