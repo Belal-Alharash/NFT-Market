@@ -34,7 +34,7 @@ export default function NavBarComponent() {
   }, [sidebarOpen]);
 
   return (
-    <header className="af-nav">
+    <nav className="af-nav">
       <Link to="/">
         <img
           className="af-nav-img"
@@ -53,31 +53,32 @@ export default function NavBarComponent() {
           <li className="af-nav-link">
             <Link to="/connect-wallet">Connect a wallet</Link>
           </li>
-        </ul>
-        <Link to="/create-account">
+          <Link to="/create-account">
             <ButtonBh
               showIcon="true"
               buttonText="Sign Up"
-              buttonClass="bh-button-one d-none d-md-block af-nav-button"
+              buttonClass="bh-button-one d-none d-md-flex af-nav-button"
               buttonIcon="../../../public/Images/nav/nav-button-icon.png"
             />
-            </Link>
+          </Link>
+        </ul>
+
       </div>
-      <img 
-        className="d-block d-lg-none toggler" 
-        onClick={toggleSidebar} 
-        aria-label="Menu" 
-        aria-expanded={sidebarOpen} 
-        src="../../../public/Images/nav/nav menu.svg" 
+      <img
+        className="d-flex d-lg-none toggler"
+        onClick={toggleSidebar}
+        aria-label="Menu"
+        aria-expanded={sidebarOpen}
+        src="../../../public/Images/nav/nav menu.svg"
         alt="Menu icon"
       />
       {sidebarOpen && (
         <div className="af-offcanvas-nav">
-          <IoClose 
+          <IoClose
             ref={closeButtonRef} // Set focus on this ref
-            onClick={toggleSidebar} 
-            className="side-nav-icon" 
-            aria-label="Close menu" 
+            onClick={toggleSidebar}
+            className="side-nav-icon"
+            aria-label="Close menu"
           />
           <Link to="/">
             <img
@@ -97,19 +98,18 @@ export default function NavBarComponent() {
               <li className="af-nav-link">
                 <Link to="/connect-wallet">Connect a wallet</Link>
               </li>
+              <Link to="/create-account">
+                <ButtonBh
+                  showIcon="true"
+                  buttonText="Sign Up"
+                  buttonClass="bh-button-one af-nav-button"
+                  buttonIcon="../../../public/Images/nav/nav-button-icon.png"
+                />
+              </Link>
             </ul>
-            <Link to="/create-account">
-            <ButtonBh
-              showIcon="true"
-              buttonText="Sign Up"
-              buttonClass="bh-button-one d-none d-md-block af-nav-button"
-              buttonIcon="../../../public/Images/nav/nav-button-icon.png"
-            />
-            </Link>
-            
           </div>
         </div>
       )}
-    </header>
+    </nav>
   );
 }
