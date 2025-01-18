@@ -6,9 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import NavBarComponent from './components/NavBarComponent/NavBarComponent.jsx';
 
-const root = createRoot(document.getElementById('root'));
-
-root.render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <NavBarComponent />
