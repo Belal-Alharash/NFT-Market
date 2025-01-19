@@ -40,19 +40,19 @@
 }
 
 @media (min-width: 375px) and (max-width: 833px){
-    h3{
+    .text-content h3{
         font-size:28px ;
     }
-    p{
+    .text-content p{
         font-size: 16px;
     }
 }
 
 @media(min-width: 834px) and (max-width:1279px){
-    h3{
+    .text-content h3{
         font-size:28px ;
     }
-    p{
+    .text-content p{
         font-size: 16px;
     }
 }
