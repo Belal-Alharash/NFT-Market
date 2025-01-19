@@ -19,5 +19,6 @@ export default function App() {
       <Route path='/nft' element={<Nft />} />
       <Route path='/ranking' element={<Ranking/>} />
     </Routes>
+  
   );
 }
