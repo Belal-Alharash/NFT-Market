@@ -7,7 +7,7 @@ import CreateAccount from './pages/CreateAccount/CreateAccount';
 import MarketPlace from './pages/MarketPlace/MarketPlace';
 import Nft from './pages/Nft/Nft';
 import Ranking from './pages/Ranking/Ranking'
- 
+
 export default function App() {
   return (
     <Routes>
@@ -19,6 +19,5 @@ export default function App() {
       <Route path='/nft' element={<Nft />} />
       <Route path='/ranking' element={<Ranking/>} />
     </Routes>
-  
   );
 }
