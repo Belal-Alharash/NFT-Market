@@ -5,12 +5,14 @@ import App from './App.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import NavBarComponent from './components/NavBarComponent/NavBarComponent.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <NavBarComponent />
       <App />
+      <Footer/>
     </BrowserRouter>
   </StrictMode>
 );

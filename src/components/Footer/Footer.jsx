@@ -1,10 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import EmailInput from '../EmailInput/EmailInput'
-import logo from '../../../public/Images/nav/Logo.png'
-import { PiDiscordLogoLight } from "react-icons/pi";
-import { CiYoutube , CiTwitter } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
+import SocialMediaLink from '../SocialMediaLink/SocialMediaLink';
 
 
 export default function Footer() {
@@ -12,33 +9,12 @@ export default function Footer() {
     <div className='mh-footer'>
       <div className='mh-footer-part1'>
         <div className='mh-footer-part1-1'>
-          <img className='mh-img-part1-1' src={logo}  alt="logo" />
+          <img className='mh-img-part1-1' src='../../../public/Images/nav/Logo.png' alt="logo" />
           <div className='mh-div-part1-1'>
             <p className='mh-p-part1-1'>NFT marketplace UI created with Anima for Figma.</p>
             <div className='mh-div2-part1-1'>
               <span className='mh-span-part1-1'>Join our community</span>
-              <ul className='mh-ul-part1-1'>
-                <li className='mh-li-part1-1'>
-                  <a href="https://discord.com/invite/eQxkYTNxSp">
-                    <PiDiscordLogoLight className='mh-a-part1-1' />
-                  </a>
-                </li>  
-                <li className='mh-li-part1-1'>
-                  <a href="https://www.youtube.com/channel/UCXqr0Ca-b73rU9zcpSBJ5cw">
-                    <CiYoutube className='mh-a-part1-1' />
-                  </a>
-                </li>  
-                <li className='mh-li-part1-1'>
-                  <a href="https://twitter.com/animaapp?lang=en">
-                    <CiTwitter className='mh-a-part1-1' />
-                  </a>
-                </li>  
-                <li className='mh-li-part1-1'>
-                  <a href="https://www.instagram.com/animaapp/?hl=en">
-                    <FaInstagram className='mh-a-part1-1' />
-                  </a>
-                </li>  
-              </ul>
+              <SocialMediaLink/>
             </div>
           </div>
         </div>
