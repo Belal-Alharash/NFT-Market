@@ -1,5 +1,4 @@
 .ED-title {
-    background-color: var(--bg-second-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +7,7 @@
     color: var(--primary-text-color);
     font-family: var(--work-sans);
 }
-.text-content h3 {
+.mh-title {
     font-size: 38px;
     font-weight: 600;
     line-height: 45.6px;

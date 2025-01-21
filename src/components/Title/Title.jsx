@@ -1,11 +1,11 @@
 import React from 'react'
 import './Title.css'
 
-export default function Title({ title, paragraph, showButton, buttonText, showInput, inputPlaceholder, onInputChange, iconInput }) {
+export default function Title({ title, paragraph, showButton, buttonText, showInput, inputPlaceholder, onInputChange, iconInput ,magic_h3 }) {
   return (
     <div className="ED-title">
       <div className="text-content">
-        <h3>{title}</h3>
+        <h3 className={magic_h3 ? 'mh-Magic-h3' :'mh-title'}>{title}</h3>
         <p>{paragraph}</p>
         {showInput && (
           <input

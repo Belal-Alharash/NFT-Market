@@ -44,24 +44,26 @@
     mix-blend-mode: normal;
     position: relative;
     text-align: left;
-    white-space: nowrap;
     color: var(--primary-text-color);
     font-family: var(--work-sans);
-    font-size: 51px;
+    font-size: 51px ;
     font-style: normal;
     font-weight: 600;
+    margin: 0;
 }
-
-@media (max-width: 834px){
+.mh-Magic-timer375px{
+    display: none;
+}
+@media(min-width: 834px) and (max-width:1279px){
     .mh-Magic-MainDiv{
         width: 670px;
     }
     .mh-Magic-h3{
-        font-size: 38px;
-        line-height: 45.6px;
+        font-size: 38px !important;
+        line-height: 45.6px !important;
     }
 }
-@media (max-width: 375px){
+@media (min-width: 375px) and (max-width: 833px){
     .mh-Magic{
         padding: 120px 195px 40px;
     }
@@ -70,7 +72,18 @@
         width: 315px;
     }
     .mh-Magic-h3{
+        font-size: 38px !important;
+        line-height: 45.6px;
         width: 315px;
         height: 92px;
+    }
+    .mh-Magic-timer{
+        display: none;
+    }
+    .mh-Magic-timer375px{
+        display: block;
+    }
+    .mh-btn-magic{
+        width: 315px;
     }
 }
