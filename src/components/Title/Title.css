@@ -1,0 +1,57 @@
+.ED-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    opacity: 0px;
+    color: var(--primary-text-color);
+    font-family: var(--work-sans);
+}
+.mh-title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+}
+
+.text-content p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+}
+.title-input {
+    padding: 12px 0px 12px 0px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.title-button {
+    background-color: #6a5acd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: right;
+}
+
+@media (min-width: 375px) and (max-width: 833px){
+    .text-content h3{
+        font-size:28px ;
+    }
+    .text-content p{
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 834px) and (max-width:1279px){
+    .text-content h3{
+        font-size:28px ;
+    }
+    .text-content p{
+        font-size: 16px;
+    }
+}
