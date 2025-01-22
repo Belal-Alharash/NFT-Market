@@ -25,7 +25,7 @@
     line-height: 38.38px;
     margin-bottom: 0;
 }
-@media screen and (max-width: 834px) {
+@media(min-width: 834px) and (max-width:1279px){
     .mh_li_infoUL{
         width: 90px;
     }
@@ -38,7 +38,7 @@
         line-height: 22.4px;
     }
 }
-@media screen and (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 833px){
     .mh_li_infoUL{
         width: 85px;
     }
