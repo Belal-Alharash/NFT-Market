@@ -31,7 +31,7 @@ export default function Footer() {
           <div className='mh-div-part1-3'>
             <p className='mh-p-part1-3'>Get exclusive promotions & updates straight to your inbox.</p>
             <EmailInput
-              hnPlaceholder="Enter your email" 
+              hnPlaceholder="Enter your email Here" 
               hnShowIcon={false} 
               hnShowIconSmallScreen={true} 
             />
