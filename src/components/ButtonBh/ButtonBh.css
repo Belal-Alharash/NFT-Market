@@ -22,7 +22,7 @@
   background-color: var(--button-bg-color);
   border: 0;
 }
-.bh-button-two {
+.bh-button-two{
   background-color: transparent;
   border: 2px solid var(--button-bg-color);
 }
@@ -40,3 +40,4 @@
   margin: 0 !important;
   text-wrap: nowrap;
 }
+
