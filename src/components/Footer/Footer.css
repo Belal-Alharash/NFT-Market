@@ -86,13 +86,14 @@
   margin: 0;
 }
 
-.mh-li-part1-2 {
-  font-family: var(--work-sans);
+.mh-li-part1-2 a{
+  font-family: var(--work-sans);   
   font-weight: 400;
   font-size: 16px;
   line-height: 22.4px;
   color: var(--secondary-text-color);
   height: 22px;
+  text-decoration: none;
 }
 
 .mh-Marketplace {
@@ -159,7 +160,7 @@
   height: 13px;
 }
 
-@media(min-width: 834px) and (max-width:1279px){
+@media (max-width: 1279px) {
   .mh-footer {
     gap: 49px;
   }
@@ -223,7 +224,10 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 833px){
+@media (max-width: 833px) {
+  .mh-footer{
+    padding: 40px 181px; /*in figma 40 195*/ 
+  }
   .mh-footer-part1 {
     flex-direction: column;
     justify-content: start;
