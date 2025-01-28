@@ -1,0 +1,10 @@
+.creators {
+  max-width: 1050px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+}
+
