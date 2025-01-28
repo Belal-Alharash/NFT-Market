@@ -1,13 +1,11 @@
 
 .hn-cardBrows{
-    width: 240px;
     border-radius: 20px;
     background-color: var(--bg-second-color);
    
-   
-   
 }
 .hn-image{
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     gap: 10px;
@@ -24,13 +22,8 @@
 
    
 
-@media(min-width:834px) and (max-width:1279px){
-    .hn-cardBrows{
-        width: 150px;
-    }
-    .hn-image{
-    width: 100%;
-    }
+@media (min-width:834px) and (max-width:1279px){
+    .hn-cardBrows{width: 150px;}
     .hn-title{
         padding: 20px 20px 25px 20px;
         size: 16px;
@@ -38,13 +31,10 @@
     }
 
 }
-@media(min-width:375px) and (max-width:833px){
-    .hn-cardBrows{
-        width: 147.5px;
-    }
-    .hn-image{
-        width: 100%;
-        }
+@media (min-width:375px) and (max-width:833px){
+  .hn-cardBrows{
+    width: 147px;
+  }
     .hn-title{
         padding: 20px 20px 25px 20px;
         size: 16px;
