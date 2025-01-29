@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import EmailInput from '../EmailInput/EmailInput'
 import SocialMediaLink from '../SocialMediaLink/SocialMediaLink';
+import { Link } from "react-router-dom";
 
 
 export default function Footer() {
@@ -21,9 +22,15 @@ export default function Footer() {
         <div className='mh-footer-part1-2'>
           <h5 className='mh-h5-part1-2'>Explore</h5>
           <ul className='mh-ul-part1-2'>
-            <li className='mh-li-part1-2 mh-Marketplace'>Marketplace</li>
-            <li className='mh-li-part1-2 mh-Rankings'>Rankings</li>
-            <li className='mh-li-part1-2 mh-ConnectAWallet'>Connect a wallet</li>
+            <li className='mh-li-part1-2 mh-Marketplace'>
+              <Link to="/market-place">Marketplace</Link>
+            </li>
+            <li className='mh-li-part1-2 mh-Rankings'>
+              <Link to="/rankings">Rankings</Link>
+            </li>
+            <li className='mh-li-part1-2 mh-ConnectAWallet'>
+              <Link to="/connect-wallet">Connect a wallet</Link>
+            </li>
           </ul>
         </div>
         <div className='mh-footer-part1-3'>

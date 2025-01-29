@@ -1,0 +1,297 @@
+.af-creators-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  background-color: var(--bg-second-color);
+  border-radius: 20px;
+  padding: 20px;
+  width: 240px;
+  height: 238px ;
+  margin: 0;
+  gap: 20px; 
+  position: relative;
+}
+
+.af-creators-card-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 10px;
+}
+
+.af-creators-card-id-pop {
+  margin: 0;
+  text-align: center;
+  background-color: var(--bg-color);
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  align-self: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  top:18px;
+  left: 20px;
+  z-index: 10;
+}
+.af-creators-card-id ,.af-ranking-card-id {
+  margin: 0;
+  font-size: 16px;
+  width: 10px;
+  height: 22px;
+  font-family: var(--space-mono);
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  text-align: center !important;
+}
+.af-creators-card-img {
+  margin: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.af-creators-card-text {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  gap: 5px;
+
+}
+
+.af-card-artist-name {
+  margin: 0;
+  font-family: var(--work-sans);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30.8px;
+  text-align: center;
+  color: var(--primary-text-color);
+  
+}
+
+.af-creators-card-sales {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  margin: 0;
+  gap: 10px;
+}
+
+.af-creators-card-sales p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: right;
+  color: var(--secondary-text-color);
+}
+
+.af-creators-card-sales span {
+  margin: 0;
+  font-family: var(--space-mono);
+  color: var(--primary-text-color);
+  font-weight: 400;
+  line-height: 22.4px;
+}
+<<<<<<< HEAD:src/components/CreatorsRankingCard/CreatorsRankingCard.css
+/* Ranking Cards */
+.af-ranking-card {
+  width: 1050px;
+  background-color: var(--bg-second-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 12px 20px 12px 20px ;
+  margin: 0;
+  gap:60px; 
+}
+.af-ranking-card-header{
+ display: flex;
+  width: 430px;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.af-ranking-card-id{
+  width: 30px;
+  height: 30px;
+  background-color: var(--bg-color);
+  border-radius: 20px;
+  margin: auto;
+}
+.af-ranking-card-img{
+  width: 60px;
+  height: 60px;
+}
+.af-card-ranking-name{
+  margin: 0;
+  font-family: var(--work-sans);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30.8px;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.af-ranking-card-text{
+  display: flex;
+  width: 520px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.af-ranking-card-percent , .af-ranking-card-description , .af-ranking-card-sales{
+  width: 160px;
+  font-family: var(--space-mono);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+ 
+}
+.af-ranking-card-percent{
+  color: var(--green-numbers-color);
+}
+
+.af-ranking-card-description , .af-ranking-card-sales{
+  color: var(--primary-text-color);
+}
+.ys-desc-ranking{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+ } 
+
+=======
+>>>>>>> efc14749aa29c6d1bc429a1adabe74e48043457e:src/components/CreatorsCard/CreatorsCard.css
+/* Media */
+@media (max-width:834px) {
+  .af-creators-card {
+    width: 330px;
+    height: 100px;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+  }
+  .af-creators-card-img {
+    width: 60px;
+    height: 60px;
+  } 
+  .af-creators-card-id-pop {
+    top: 15px;
+    left: 21px;
+    width: 30px;
+    height: 30px;
+  }
+ 
+}
+/* Ranking Cards */ 
+
+@media (max-width : 1279px) and (min-width :834px ){
+.af-ranking-card{
+  width: 690px;
+}
+.af-ranking-card-header{
+   width: 410px;
+   gap: 20px;
+  
+  }
+  .ys-desc-ranking{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 240px;
+  }
+  .af-ranking-card-id-pop{
+    width: 24px;
+    height: 24px;
+   
+  }
+  .af-ranking-card-id{
+    background-color: var(--bg-second-color);
+  }
+  .af-ranking-card-img{
+    width: 24px;
+    height: 24px;
+  }
+  .af-card-ranking-name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+  }
+  .af-ranking-card-text{
+    width: 220px;
+  
+  }
+  .af-ranking-card-description{
+    display: none;
+  }
+  .af-ranking-card-percent , .af-ranking-card-sales{
+    width: 100px;
+  }
+}
+
+
+@media (max-width : 834px) {
+  .af-ranking-card{
+    width: 315px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    gap: 10px;
+  }
+  .af-ranking-card-header{
+    gap: 10px;
+    width: auto;
+   
+   }
+   .ys-desc-ranking{
+    display: flex;
+    gap: 12px;
+    width: 176px;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .af-ranking-card-id-pop{
+    width: 24px;
+    height: 24px;
+  }
+  .af-ranking-card-id{
+    background-color: var(--bg-second-color);
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+  }
+  .af-ranking-card-img{
+    width: 24px;
+    height: 24px;
+  }
+  .af-card-ranking-name{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .af-ranking-card-text{
+    width: 220px;
+  
+  }
+  .af-ranking-card-description, .af-ranking-card-percent {
+    display: none;
+  }
+  .af-ranking-card-sales {
+    width: 80px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+  }
+ 
+}

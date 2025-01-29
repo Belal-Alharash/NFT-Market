@@ -1,4 +1,3 @@
-import React from 'react'
 import './Title.css'
 
 export default function Title({ title, paragraph, showButton, buttonText, showInput, inputPlaceholder, onInputChange, iconInput ,magic_h3 }) {
