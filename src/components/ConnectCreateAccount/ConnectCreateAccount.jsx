@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './ConnectCreateAccount.css'
 export default function ConnectCreateAccount({img,title,text,creatYs}) {
   return (

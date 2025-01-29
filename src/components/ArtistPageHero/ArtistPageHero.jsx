@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './ArtistPageHero.css'
 import data from './../../data/InfoUlCard'
 import InfoUlCard from '../InfoUlCard/InfoUlCard'
