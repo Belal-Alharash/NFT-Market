@@ -6,9 +6,8 @@ import NftMainCard from '../../components/NftMainCard/NftMainCard';
 import TopCreators from '../../components/TopCreators/TopCreators';
 import RankingCard from '../../components/RankingCard/RankingCard';
 
-
 export default function Home() {
-  return (
+  return(
     <>
       {/* <Hero />
       <MagicMashroom />
@@ -26,3 +25,5 @@ export default function Home() {
     </>
   );
 }
+
+
