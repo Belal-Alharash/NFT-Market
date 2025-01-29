@@ -1,0 +1,11 @@
+.iA-TrendingCollection-Section{
+    padding: 80px 115px;
+    background-color: var(--bg-color);
+
+}
+.iA-TrendingCollect-CardsGroup {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
