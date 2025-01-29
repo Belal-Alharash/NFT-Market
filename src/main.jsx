@@ -11,7 +11,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <NavBarComponent />
-      <App />
+      <App/>
+      <Footer/>
     </BrowserRouter>
   </StrictMode>
 );

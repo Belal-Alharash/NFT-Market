@@ -43,6 +43,7 @@
     gap: 5px;
 }
 .mh-timer-time{
+    margin: 0;
     width: 53px;
     height: 46px;
     font-family: var(--space-mono);
@@ -59,6 +60,7 @@
     font-size: 12px;
     line-height: 13.2px;
     color: var(--primary-text-color);
+    margin: 0;
 }
 .mh-timer-comma{
     width: 18px;
