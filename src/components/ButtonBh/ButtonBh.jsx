@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './ButtonBh.css'
 
 export default function ButtonBh({ showIcon, buttonText, buttonClass, buttonIcon }) {
