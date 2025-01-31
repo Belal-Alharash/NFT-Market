@@ -1,9 +1,13 @@
-import React from 'react'
-import './MarketPlace.css'
+
+import './MarketPlace.css';
+import MarketPlaceRankingHeader from '../../components/MarketPlaceRankingHeader/MarketPlaceRankingHeader';
+
 export default function MarketPlace() {
+
+
   return (
     <>
-       <div>MarketPlace</div>
+      <MarketPlaceRankingHeader />
     </>
-  )
+  );
 }
